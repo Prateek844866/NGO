@@ -13,8 +13,8 @@ const transporter = nodemailer.createTransport({
     secure:false,
     requireTLS:true,
     auth:{
-        user:"prateekanojia2002@gmail.com",
-        pass:"yugwdvkerjgeftro"
+        user:"prateekanojia20024@gmail.com",
+        pass:"hvqmavwcvfdgysob"
     }
 })
 
@@ -84,7 +84,7 @@ app.get("/contact",(req,res)=>{
 })
 app.post("/contact",encoder,(req,res)=>{
     let mailOption = {
-        from:"prateekanojia2002@gmail.com",
+        from:"prateekanojia20024@gmail.com",
         to:req.body.email,
         subject:"Your Query Received!!! : Team Company",
         text : "Thanks to Share Your Query with Us!!!\nOur team Will Contact Your Soon\n"
@@ -94,8 +94,8 @@ app.post("/contact",encoder,(req,res)=>{
         console.log(error);
     })
     mailOption = {
-        from:"prateekanojia2002@gmail.com",
-        to:"yugwdvkerjgeftro",
+        from:"prateekanojia20024@gmail.com",
+        to:"hvqmavwcvfdgysob",
         subject:"Query Received!!! : Team Company",
         text : `
             Name :  ${req.body.name}
