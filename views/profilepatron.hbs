@@ -1,0 +1,32 @@
+{{>head}}
+<title>Company | Profile</title>
+{{>navbar}}
+<div class="container">
+    <div class="heading rounded">
+        Patron Profile
+    </div>
+    <div class="card m-3 background1">
+        <div>
+        <img src="images/note.jpg" class="card-img-left">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title textcolor1">Info of patron</h5>
+            <p class="card-text textcolor2">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.
+            </p>
+        </div>
+    </div>
+    <hr>
+    {{#each data}}
+    <div class="card mt-2 background1" style="width: 100%;">
+        <img src="..." class="card-img-left" alt="...">
+        <div class="card-body">
+            <h5 class="card-title textcolor1">Child info</h5>
+            <p class="card-text textcolor2">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+        </div>
+        <hr>
+    </div>    
+    {{/each}}
+</div>
+{{>footer}}
