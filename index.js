@@ -112,9 +112,11 @@ app.post("/contact",encoder,(req,res)=>{
     res.render("contact",{"show":true})
 })
 
-app.get("/post",(req,res)=>{
-    res.render("post")
+app.get("/aboutus",(req,res)=>{
+    res.render("aboutus")
 })
+
+
 
 app.listen(8000,()=>{
     console.log("Server is Running at PORT 8000...");

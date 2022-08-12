@@ -36,11 +36,22 @@ p{
     text-align: justify;
     padding: 10px;
 }
-div div img{
+.imgcontain{
     height: 200px;
     width:300px;
     object-fit: contain;
 }
+.imgabout{
+    height: 400px;
+    width:400px;
+    object-fit: contain;
+}
+.teamimg{
+    height: 300px;
+    width:300px;
+    object-fit: contain;
+}
+
 .flat{
     border-radius: 0px !important;
 }
@@ -49,6 +60,13 @@ div div img{
 }
 .position1{
     margin-top: 400px !important;
+    float: right;
+}
+.position1{
+    margin-top: 400px !important;
+    float: right;
+}.position2{
+    margin: 0px auto !important;
     float: right;
 }
 
